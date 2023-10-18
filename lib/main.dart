@@ -21,7 +21,7 @@ class WeatherApp extends StatefulWidget {
 }
 
 class _WeatherAppState extends State<WeatherApp> {
-  final apiKey = '7421be6a1f692eef18ca18464be58e24';
+  final apiKey = '';
   final city = 'Lamongan';
 
   Future<Map<String, dynamic>?> fetchWeather() async {
